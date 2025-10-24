@@ -12,7 +12,7 @@ public class DevTest {
         // System.out.println("Result: " + SafeInput.getRangedInt(in, "Enter an integer", 1, 10));
         // System.out.println("Result: " + SafeInput.getRangedDouble(in, "Enter a double", 0.5, 9.9));
         // System.out.println("Result: " + SafeInput.getYNConfirm(in, "Do you agree"));
-        // System.out.println("Result: " + SafeInput.getRegExString(in, "Enter your UC M number", "^(M|m)\\d{5}$"));
+        System.out.println("Result: " + SafeInput.getRegExString(in, "Enter your UC M number", "^(M|m)\\d{5}$"));
         // SafeInput.prettyHeader("Welcome to the SafeInput Library");
     }
 }
